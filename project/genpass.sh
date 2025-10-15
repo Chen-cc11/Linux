@@ -36,3 +36,5 @@ generate_password() {
 
   echo "$password"
 }
+
+generate_password
