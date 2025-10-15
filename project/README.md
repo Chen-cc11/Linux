@@ -19,3 +19,10 @@ chmod +x configure_ssh.sh
 bash configure_ssh.sh
 ```
 在执行脚本过程中遇到提示输入私钥和公钥的保存位置时，可以直接按enter，这样会默认分别保存到`configure_ssh.sh`和`~/.ssh/id_rsa.pub` 中
+
+# 4 genpass.sh
+用于生成随机密码
+```bash
+chmod +x genpass.sh
+bash genpass.sh
+```
